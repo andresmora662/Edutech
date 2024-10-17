@@ -6,6 +6,8 @@ de sacar el máximo provecho a la levedad del código html-5 y toda la estética
 posibilita CSS con la finalidad de generar una página web de código limpio, con buenas 
 prácticas y optimizada.
 
+Enlace: https://edutech101.netlify.app/
+
 NavBar Tipo Banner:
 ![image](https://github.com/user-attachments/assets/eec76172-2317-4fef-bfe4-1db72f0fb759)
 
