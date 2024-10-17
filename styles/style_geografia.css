@@ -1,0 +1,394 @@
+/* Estilos globales */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;   
+  }
+
+/* _____________NAVBAR_____________ */
+.banner .lista_desordenada a{
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+}
+.banner .lista_desordenada a:hover {
+ color: #94ff69
+}
+
+/* Encabezado */
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  border: solid 5px;
+}
+.lista_desordenada {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 25px;
+}
+.lista_desordenada li {
+  margin: 0 25px;
+  font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-size: 18px;
+}
+/* .menu-vertical{
+position: absolute;
+list-style: none;
+display: none;
+} */
+
+/* .lista_desordenada li:hover .menu-vertical{
+display: block;
+} */
+
+
+/* __________________BANNER____________ */
+  .banner{
+    background-image: linear-gradient(
+      to left,
+      rgba(90, 0, 99, 0),
+      rgb(0, 0, 0)
+     ),  
+     url('/images/geografia\ portada.webp');
+    background-position: center;
+    background-size:cover;
+    height: 700px;
+  }
+
+  
+  .banner-contenedor{
+    color:#ffffff;
+    width: 55%;
+    padding: 0px 0px 13px 0px;
+    margin: 160px 0px 0 120px;
+
+  } 
+ 
+
+.banner-contenedor h1{
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  width: 41%;
+}
+.banner-contenedor p{
+  margin-bottom: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic;
+  width: 100%;
+}
+
+  /* ________BOTON BANNER________ */
+
+  .banner-contenedor .boton-uno{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0, 0,3);
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: #fff;
+    border-radius: 20px;
+    border: solid rgb(255, 255, 255) 1px;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  .banner-contenedor .boton-uno:hover{
+    color: #68ff75;
+    border-radius: 20px;
+    border: solid 1px;
+    cursor: pointer;
+  }
+
+
+/* ____________SECCION A_______________ */
+
+
+.seccion_a{
+  border: solid 2px rgb(0, 22, 150);
+  height: 500px;
+  display:flex;
+  flex-wrap:wrap;
+}
+main > div{
+  border: solid 2px yellow;
+}
+main > div > p{
+  border: solid 2px rgb(236, 0, 0);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Questrial", sans-serif;
+
+}
+
+/* _____TARJETAS_____ */
+
+.tarjeta{
+  height: 400px;
+  width: 21%;
+  box-shadow: 0 14px 20px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+  margin: 3% 0 0% 3%;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: .4s;
+  background-color: #ffffff;
+  font-family: "Questrial", sans-serif;
+}
+
+.tarjeta>img{
+  width: 200px;
+  border-radius:20px;
+  margin-top: 20px;
+  
+}
+
+.tarjeta:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+
+
+.tarjeta h2 a{
+ text-decoration: none;
+ letter-spacing: 1px;
+
+}
+
+/* ________BOTONES TARJETAS________ */
+
+.boton_6to{
+  padding: 10px 20px;
+  border: solid 1px #002da8;
+  color: #000000;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.boton_6to:hover{
+  background-color: #002da8;
+  color: white;
+  border: solid #002da8;
+}
+
+.boton_7to{
+  padding: 10px 20px;
+  border: solid 1px #002da8;
+  color: #000000;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.boton_7to:hover{
+  background-color: #002da8;
+  color: white;
+  border: solid #002da8;
+}
+
+.boton_8to{
+  padding: 10px 20px;
+  border: solid 1px #002da8;
+  color: #000000;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.boton_8to:hover{
+  background-color: #002da8;
+  color: white;
+  border: solid #002da8;
+}
+
+.boton_9to{
+  padding: 10px 20px;
+  border: solid 1px #002da8;
+  color: #000000;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.boton_9to:hover{
+  background-color: #002da8;
+  color: white;
+  border: solid #002da8;
+}
+
+
+  /* _________Galeria main______________ */
+
+  .contenedor-plataforma{
+    box-shadow: 0 14px 20px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+    width: 400px;
+    margin: 100px 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: .4s;
+    background-color: #ffffff;
+  }
+
+
+
+summary {
+    list-style-type: none;
+    cursor: pointer;
+    border: solid 0.1px;
+    padding: 7px;
+    width: 50%;
+    margin-left: 90px;
+    margin: 20px auto;
+    background: #000000;
+    border-radius: 16px;
+    color: #ffffff;
+
+  }
+
+
+summary:hover {
+    color: #5eff00;
+  }
+
+
+  .contenedor-plataforma:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+  }
+
+  .contenedor-plataforma img{
+     width: 50%;
+     margin: 0 auto;
+
+  }
+  .contenedor-plataforma a{
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .contenedor-plataforma a:hover{
+    color: #4aca00;;
+  }
+  
+  /* Contenido principal */
+  .caja_1 {
+    text-align: center;
+    padding: 20px;
+    border: solid red;
+  }
+  
+
+  .contenedor-2{
+    display: flex;
+    border: solid rgb(185, 178, 255);
+    height: 100%;
+
+  }
+  
+.caja_1{
+
+    border: solid red;
+    width: 80%;
+    margin: 0px 0px 0px 0px ;
+
+}
+
+ .contenedor-2 div img {
+    border: solid yellow;
+    border-radius: 20px;
+    width: 55%;
+    height: 75%;
+    margin: 40px 0px 00px 125px;
+
+  }
+  
+  /* -----------------------Sección 2------------------------------------ */
+  .seccion-1 {
+    background-color: #ffffff;
+    padding: 30px;
+    border: solid yellow;
+  }
+  
+  .seccion-1 h2 {
+    font-size: 24px;
+    color: #000000;
+    border: solid;
+  }
+
+  .seccion-1 a{
+    color: rgb(11, 0, 163);
+  }
+  
+
+/* ----------------FORMULARIO-------------------------------------   */
+  /* Formulario de contacto */
+  .caja_formulario {
+    background-color: #141414;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .formulario h2 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .campo {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+  }
+  

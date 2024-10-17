@@ -1,0 +1,243 @@
+/* Estilos globales */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+   
+  }
+
+  .banner{
+    background-image: linear-gradient(
+      to left,
+      rgba(211, 97, 221, 0),
+      rgb(0, 0, 0)
+     ),  
+     url('../images/filosofia.jpg_.webp');
+    /* background-position: center; */
+    background-size: cover; 
+    height: 700px;
+    border: solid yellow;
+
+
+  }
+
+  .banner-contenedor{
+    color:#ffffff;
+    width: 50%;
+    padding: 60px 0px 200px 0px;
+    border: solid 500px rgb(0, 145, 0) ;
+  } 
+  
+.banner-contenedor span{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  border: solid rgb(255, 255, 255);
+}
+
+.banner-contenedor h1{
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  border: solid black;
+}
+
+.banner-contenedor p{
+  margin-bottom: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic;
+  border: solid rgb(0, 0, 0);
+  
+}
+
+.banner-contenedor {
+  text-decoration: none;
+  margin-right: 20px;
+  border: solid rgb(172, 0, 0);
+  width: 55%;
+
+}
+
+.banner-contenedor .boton-uno{
+  padding: 10px 30px;
+  background-color: rgb(0, 0, 0, 0,3);
+  border: 2px solid #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.banner-contenedor .boton-dos{
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 2px solid #000;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.banner-contenedor .boton-uno:hover{
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #ffffff;
+
+}
+
+.banner-contenedor .boton-dos:hover{
+  background-color: #000000;
+  border: 2px solid #000;
+  color: #fff;
+
+}
+
+/* ___________________________ */
+
+
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    border: solid 1px;
+    align-items: center;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    border: solid;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    border: solid 5px;
+  }
+  
+  /* .caja_logo h3 {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+    border: solid yellow 1px;
+  } */
+  
+  .lista_desordenada {
+    list-style: none;
+    display: flex;
+    border: solid green;
+    justify-content: center;
+  }
+  
+  .lista_desordenada li {
+    margin: 0 25px;
+    border: solid red;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+
+
+
+  }
+  
+  /* Contenido principal */
+  .caja_main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .titulo_main {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  
+  .parrafo {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .caja_imagen img {
+    max-width: 20%;
+    border-radius: 50%;
+  }
+  
+  /* Sección 1 */
+  .seccion-1 {
+    background-color: #1a1a1a;
+    padding: 30px;
+  }
+  
+  .encabezado h2 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .galeria p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Formulario de contacto */
+  .caja_formulario {
+    background-color: #141414;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .formulario h2 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .campo {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+  }
+  

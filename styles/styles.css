@@ -1,0 +1,335 @@
+/* Estilos globales */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+   
+  }
+
+  /* _________NAVBAR__________________ */
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+  }
+  a:hover {
+    color: rgb(186, 181, 255);
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+  }
+  
+  /* .caja_logo h3 {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+    border: solid yellow 1px;
+  } */
+  
+  .lista_desordenada {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  .lista_desordenada li {
+    margin: 0 25px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 18px;
+  }
+
+  .banner{
+    background-image: linear-gradient(
+      to left,
+      rgba(211, 97, 221, 0),
+      rgb(0, 0, 0)
+     ),  
+     url('../images/acropolis.jpg');
+    background-size: cover; 
+    height: 700px;
+
+
+  }
+
+  .banner-contenedor{
+    color:#ffffff;
+    width: 32%;
+    padding: 0px 0px 14px 0px;
+    margin: 85px 0px 0 100px;
+  } 
+  
+.banner-contenedor h1{
+  margin: 0 0 10px 0;
+ 
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  width: 99.5%;
+}
+.banner-contenedor p{
+  margin-bottom: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic;
+  width: 99.5%;
+}
+
+/* ____________BOTONES BANNER________ */
+.banner-contenedor .boton-uno{
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  background-color: rgb(0, 0, 0, 0,3);
+  font-size: 18px;
+  color: #fff;
+  border-radius: 20px;
+  border: solid rgb(255, 255, 255) 1px;
+}
+.banner-contenedor .boton-uno:hover{
+  color: #686bff;
+  border-radius: 20px;
+  border: solid 1px;
+}
+.banner-contenedor .boton-dos{
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-style: italic;
+  color: #ffffff;
+  border-radius: 20px;
+  border: solid rgb(255, 255, 255) 1px;
+  margin-left: 25px;
+}
+
+ .banner-contenedor .boton-dos:hover{
+  color: #8284eb;
+  border: solid 1px;
+}
+
+
+  
+  /* _________MAIN________ */
+
+  /* _______SECCION A___________ */
+
+  .titulo_seccion_a{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)),
+    url(../images/simbolos\ indigenas\ colombianos.webp);
+    background-position: 0px 0px;
+    height: 300px;
+  
+  }
+
+  .titulo_asignaturas{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Questrial", sans-serif;
+    margin: 0;
+    padding: 120px 0 0 292px;
+
+  }
+
+  /* ________SECCION B__________*/
+  
+.seccion_b{
+  border: solid 2px rgb(217, 255, 0);
+  height: 1300px;
+  display:flex;
+  flex-wrap:wrap;
+}
+/* ___________TARGETAS _________ */
+.targeta{
+  height: 480px;
+  width: 25%;
+  box-shadow: 0 14px 20px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+  margin: 3% 0 0% 6%;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: .4s;
+  background-color: #ffffff;
+  font-family: "Questrial", sans-serif;
+}
+
+.targeta >img{
+  width: 200px;
+  height: 200px;
+  border-radius:20px;
+  margin-top: 20px;
+}
+
+.targeta:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+h2{
+  letter-spacing: 1px;
+  margin-left: 22%;
+  width: 55%;
+}
+
+/* ________COLORES TITULOS______ */
+
+.titulo_geografia >a{
+  color: #000000;
+}
+
+.titulo_geografia >a:hover{
+  color: #55ac23;
+}
+
+.titulo_historia >a{
+  color: #000000;
+}
+
+.titulo_historia >a:hover{
+  color: #947900;
+}
+
+.titulo_filosofia >a{
+  color: #000000;
+}
+
+.titulo_filosofia >a:hover{
+  color: #0004da;
+}
+
+.titulo_competencias >a{
+  color: #000000;
+}
+
+.titulo_competencias >a:hover{
+  color: #0004da;
+}
+
+.titulo_arte >a{
+  color: #000000;
+}
+
+.titulo_arte >a:hover{
+  color: #0004da;
+}
+
+
+
+/* ________________________ */
+.targeta p{
+  margin: 0% 7% 10% 7%;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
+
+/* _______COLOR BOTONES______ */
+.boton_geografia {
+padding: 10px 20px;
+border: solid 1px rgb(72, 230, 24);
+color: #000000;
+border-radius: 10px;
+}
+
+.boton_geografia:hover{
+  background-color: #4dbd3e;
+  color: white;
+  border: solid #4dbd3e;
+}
+
+.boton_historia{
+  padding: 10px 20px;
+  border: solid 1px rgb(105, 63, 0);
+  color: #000000;
+  border-radius: 10px;
+}
+
+.boton_historia:hover{
+  background-color: #a88100;
+  color: white;
+  border: solid #a88100;
+
+}
+
+.boton_filosofia{
+  padding: 10px 20px;
+  border: solid 1px #002da8;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.boton_filosofia:hover{
+  background-color: #002da8;
+  color: white;
+  border: solid #002da8;
+}
+
+.boton_ciudadanas{
+  padding: 10px 20px;
+  border: solid 1px #002da8;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.boton_ciudadanas:hover{
+  background-color: #002da8;
+  color: white;
+  border: solid #002da8;
+}
+
+.boton_arte{
+  padding: 10px 20px;
+  border: solid 1px #002da8;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.boton_arte:hover{
+  background-color: #002da8;
+  color: white;
+  border: solid #002da8;
+}
+
+.boton_etica{
+  padding: 10px 20px;
+  border: solid 1px #002da8;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.boton_etica:hover{
+  background-color: #002da8;
+  color: white;
+  border: solid #002da8;
+}
+
+  
+  /*________ Pie de página__________ */
+  footer {
+    background-color: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  footer h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+  

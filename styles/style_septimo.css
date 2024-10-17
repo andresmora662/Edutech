@@ -1,0 +1,181 @@
+/* Estilos globales */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;   
+  }
+/* __________________BANNER____________ */
+  .banner{
+    background-image: linear-gradient(
+      to left,
+      rgba(90, 0, 99, 0),
+      rgb(0, 0, 0)
+     ),  
+     url('/images/geografia_2.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    
+  }
+  .banner .boton-uno{
+    border: solid 1px white;
+    border-radius: 6%;
+    margin-left: 45%;
+    cursor: pointer;
+    padding: 0.5%;
+  }
+  .banner-contenedor{
+    color:#ffffff;
+    width: 50%;
+    padding: 60px 0px 200px 0px;
+  } 
+.banner-contenedor span{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.banner-contenedor h1{
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+}
+.banner-contenedor p{
+  margin-bottom: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic;
+  width: 100%;
+}
+.banner-contenedor {
+  text-decoration: none;
+  margin-right: 20px;
+  width: 55%;
+}
+/* _____________NAVBAR_____________ */
+  .banner .lista_desordenada a{
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+  }
+  .banner .lista_desordenada a:hover {
+    color: rgb(182, 184, 74);
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    border: solid 5px;
+  }
+  .lista_desordenada {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 25px;
+  }
+  .lista_desordenada li {
+    margin: 0 25px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+  }
+/* .menu-vertical{
+  position: absolute;
+  list-style: none;
+  display: none;
+}
+
+.lista_desordenada li:hover .menu-vertical{
+display: block;
+} */
+
+/* ____________SECCION A_______________ */
+
+.contenedor-titulo{
+  background-image: linear-gradient(
+    rgb(216, 187, 130),
+  rgba(0, 0, 0, 0.226)), 
+  url(../images/curvas\ nivel\ 2.jpg);
+  padding: 20px;
+}
+
+main > div > p{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Questrial", sans-serif;
+  margin: 0;
+  padding: 40px 0 40px 0;
+
+}
+
+/* _______SECCION A DIVISION B TRAJETAS_________ */
+
+.seccion_a{
+  border: solid 2px rgb(0, 0, 0);
+  height: 100%;
+  display:flex;
+  flex-wrap:wrap;
+  background-color: rgb(255, 255, 255);
+}
+
+.targeta_geografia{
+  height: 100%;
+  width: 21%;
+  box-shadow: 0 14px 20px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+  margin: 3% 0 0% 6%;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: .4s;
+  background-color: rgba(255, 255, 255, 0.705);
+  font-family: "Questrial", sans-serif;
+}
+
+.targeta_geografia >img{
+  width: 200px;
+  border-radius:20px;
+  margin-top: 20px;
+  
+}
+
+.targeta_geografia:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+
+.targeta_geografia h2{
+  letter-spacing: 1px;
+
+}
+
+.targeta_geografia p{
+  margin: 14% 7% 4% 7%;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+
+}
+
+  /* Pie de página */
+  footer {
+    background-color: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+  }
+  

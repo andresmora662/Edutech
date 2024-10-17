@@ -1,0 +1,326 @@
+/* Estilos globales */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;   
+  }
+/* __________________BANNER____________ */
+  .banner{
+    background-image: linear-gradient(
+      to left,
+      rgba(90, 0, 99, 0),
+      rgb(0, 0, 0)
+     ),  
+     url('/images/geografia_2.jpeg');
+    background-position: center;
+
+    background-size:contain;
+    height: 700px;
+  }
+  .banner .boton-uno{
+    border: solid 1px white;
+    border-radius: 6%;
+    margin-left: 45%;
+    cursor: pointer;
+    padding: 0.5%;
+  }
+  .banner-contenedor{
+    color:#ffffff;
+    width: 50%;
+    padding: 60px 0px 200px 0px;
+  } 
+.banner-contenedor span{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.banner-contenedor h1{
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+}
+.banner-contenedor p{
+  margin-bottom: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic;
+  width: 100%;
+}
+.banner-contenedor {
+  text-decoration: none;
+  margin-right: 20px;
+  width: 55%;
+}
+/* _____________NAVBAR_____________ */
+  .banner .lista_desordenada a{
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+  }
+  .banner .lista_desordenada a:hover {
+    text-decoration: underline;
+    border: solid;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    border: solid 5px;
+  }
+  .lista_desordenada {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 25px;
+  }
+  .lista_desordenada li {
+    margin: 0 25px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+  }
+.menu-vertical{
+  position: absolute;
+  list-style: none;
+  display: none;
+}
+
+.lista_desordenada li:hover .menu-vertical{
+display: block;
+}
+
+/* ____________SECCION A_______________ */
+
+
+.seccion_a{
+  border: solid 2px rgb(217, 255, 0);
+  height: 100%;
+  display:flex;
+}
+
+.seccion_a >p{
+  border: solid 2px blue;
+  width: 50%;
+}
+
+/* __________________________________________ */
+
+
+main > div{
+  border: solid 2px yellow;
+}
+main > div > p{
+  border: solid 2px rgb(236, 0, 0);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Questrial", sans-serif;
+
+}
+
+.targeta_geografia{
+  height: 100%;
+  width: 21%;
+  box-shadow: 0 14px 20px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+  margin: 3% 0 0% 6%;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: .4s;
+  background-color: #ffffff;
+  font-family: "Questrial", sans-serif;
+}
+
+.targeta_geografia >img{
+  width: 200px;
+  border-radius:20px;
+  margin-top: 20px;
+  
+}
+
+.targeta_geografia:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+
+.targeta_geografia h2{
+  letter-spacing: 1px;
+
+}
+
+.targeta_geografia p{
+  margin: 14% 7% 4% 7%;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+
+}
+
+
+  /* _________Galeria main______________ */
+
+  .contenedor-plataforma{
+    box-shadow: 0 14px 20px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+    width: 400px;
+    margin: 100px 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: .4s;
+    background-color: #ffffff;
+  }
+
+
+
+summary {
+    list-style-type: none;
+    cursor: pointer;
+    border: solid 0.1px;
+    padding: 7px;
+    width: 50%;
+    margin-left: 90px;
+    margin: 20px auto;
+    background: #000000;
+    border-radius: 16px;
+    color: #ffffff;
+
+  }
+
+
+summary:hover {
+    color: #5eff00;
+  }
+
+
+  .contenedor-plataforma:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+  }
+
+  .contenedor-plataforma img{
+     width: 50%;
+     margin: 0 auto;
+
+  }
+  .contenedor-plataforma a{
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .contenedor-plataforma a:hover{
+    color: #4aca00;;
+  }
+  
+  /* Contenido principal */
+  .caja_1 {
+    text-align: center;
+    padding: 20px;
+    border: solid red;
+  }
+  
+
+  .contenedor-2{
+    display: flex;
+    border: solid rgb(185, 178, 255);
+    height: 100%;
+
+  }
+  
+.caja_1{
+
+    border: solid red;
+    width: 80%;
+    margin: 0px 0px 0px 0px ;
+
+}
+
+ .contenedor-2 div img {
+    border: solid yellow;
+    border-radius: 20px;
+    width: 55%;
+    height: 75%;
+    margin: 40px 0px 00px 125px;
+
+  }
+  
+  /* -----------------------Sección 2------------------------------------ */
+  .seccion-1 {
+    background-color: #ffffff;
+    padding: 30px;
+    border: solid yellow;
+  }
+  
+  .seccion-1 h2 {
+    font-size: 24px;
+    color: #000000;
+    border: solid;
+  }
+
+  .seccion-1 a{
+    color: rgb(11, 0, 163);
+  }
+  
+
+/* ----------------FORMULARIO-------------------------------------   */
+  /* Formulario de contacto */
+  .caja_formulario {
+    background-color: #141414;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .formulario h2 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .campo {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+  }
+  

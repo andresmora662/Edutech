@@ -1,0 +1,392 @@
+/* Estilos globales */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+   
+  }
+
+  .banner{
+    background-image: linear-gradient(
+      to left,
+      rgba(211, 97, 221, 0),
+      rgb(0, 0, 0)
+     ),  
+     url('/images/Sociales.jpg');
+    /* background-position: center; */
+
+    background-size: auto;
+    height: 700px;
+    border: solid yellow;
+
+
+  }
+
+  .banner .boton-uno{
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 6%;
+    margin-left: 45%;
+    cursor: pointer;
+    padding: 0.5%;
+
+  }
+  .banner-contenedor{
+    color:#ffffff;
+    width: 50%;
+    padding: 60px 0px 200px 0px;
+    border: solid 500px rgb(0, 145, 0) ;
+  } 
+  
+.banner-contenedor span{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  border: solid rgb(255, 255, 255);
+}
+
+.banner-contenedor h1{
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  border: solid black;
+}
+
+.banner-contenedor p{
+  margin-bottom: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic;
+  border: solid rgb(252, 0, 0);
+  width: 100%;
+  
+}
+
+.banner-contenedor {
+  text-decoration: none;
+  margin-right: 20px;
+  border: solid rgb(172, 0, 0);
+  width: 55%;
+
+}
+
+
+/* __________SECCION A_________________ */
+
+.seccion-a{
+  display: flex;
+  margin: 6% 0 6% 0;
+  border: solid 2px blue;
+}
+/* __________________DIVISIÓN B________________ */
+.division-a{
+  width: 68%;
+  margin: 0 0 0 20%;
+
+}
+
+.titulo-seccion-a {
+  font-size: 40px;
+  margin: 0 0 0 32%;
+  text-align: center;
+  letter-spacing: 2px;
+  width: 40%;
+  font-family: "Questrial", sans-serif;
+
+}
+
+.titulo-seccion-a > span{
+  font-size: 18px;
+}
+
+.parrafo_slogan{
+  font-size: 35px;
+  font-family: "Questrial", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  width: 99%;
+  margin: 3% 0 0 0;
+  font-weight: 00;
+}
+.parrafo_slogan span{
+  color: rgb(7, 207, 0);
+}
+
+
+/* __________DIVISION B_________________ */
+
+.division-b {
+  margin: 0 15% 0 3%;
+  width: 70%;
+  height: 100%;
+}
+.division-b p{
+  line-height: 1.6;
+  font-family: "Questrial", sans-serif;
+  letter-spacing: .05em;
+  
+
+}
+
+  .banner .lista_desordenada a{
+    color: #ffffff;
+    text-decoration: none;
+    border: solid 1px;
+    align-items: center;
+  }
+  
+  .banner .lista_desordenada a:hover {
+    text-decoration: underline;
+    border: solid;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    border: solid 5px;
+  }
+  
+
+  
+  .lista_desordenada {
+    list-style: none;
+    display: flex;
+    border: solid  #5eff00;
+    justify-content: center;
+  }
+  
+  .lista_desordenada li {
+    margin: 0 25px;
+    border: solid red;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+  }
+
+.menu-vertical{
+  position: absolute;
+  list-style: none;
+  display: none;
+}
+
+.lista_desordenada li:hover .menu-vertical{
+display: block;
+}
+
+/* ____________SECCION B_______________ */
+
+.seccion_b{
+  border: solid 2px rgb(217, 255, 0);
+  height: 100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.targeta_geografia{
+  border: solid 2px #000000;
+  height: 100%;
+  width: 25%;
+  box-shadow: 0 14px 20px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+  margin: 3% 0 0% 6%;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: .4s;
+  background-color: #ffffff;
+  font-family: "Questrial", sans-serif;
+}
+
+.targeta_geografia >img{
+  width: 200px;
+  border-radius:20px;
+  margin-top: 20px;
+  
+}
+
+.targeta_geografia:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+
+.targeta_geografia h2{
+  letter-spacing: 1px;
+
+}
+
+.targeta_geografia p{
+  margin: 14% 7% 4% 7%;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+
+}
+
+
+
+
+
+  /* _________Galeria main______________ */
+
+  .contenedor-plataforma{
+    box-shadow: 0 14px 20px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+    width: 400px;
+    margin: 100px 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: .4s;
+    background-color: #ffffff;
+  }
+
+
+
+summary {
+    list-style-type: none;
+    cursor: pointer;
+    border: solid 0.1px;
+    padding: 7px;
+    width: 50%;
+    margin-left: 90px;
+    margin: 20px auto;
+    background: #000000;
+    border-radius: 16px;
+    color: #ffffff;
+
+  }
+
+
+summary:hover {
+    color: #5eff00;
+  }
+
+
+  .contenedor-plataforma:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+  }
+
+  .contenedor-plataforma img{
+     width: 50%;
+     margin: 0 auto;
+
+  }
+  .contenedor-plataforma a{
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .contenedor-plataforma a:hover{
+    color: #4aca00;;
+  }
+  
+  /* Contenido principal */
+  .caja_1 {
+    text-align: center;
+    padding: 20px;
+    border: solid red;
+  }
+  
+
+  .contenedor-2{
+    display: flex;
+    border: solid rgb(185, 178, 255);
+    height: 100%;
+
+  }
+  
+.caja_1{
+
+    border: solid red;
+    width: 80%;
+    margin: 0px 0px 0px 0px ;
+
+}
+
+ .contenedor-2 div img {
+    border: solid yellow;
+    border-radius: 20px;
+    width: 55%;
+    height: 75%;
+    margin: 40px 0px 00px 125px;
+
+  }
+  
+  /* -----------------------Sección 2------------------------------------ */
+  .seccion-1 {
+    background-color: #ffffff;
+    padding: 30px;
+    border: solid yellow;
+  }
+  
+  .seccion-1 h2 {
+    font-size: 24px;
+    color: #000000;
+    border: solid;
+  }
+
+  .seccion-1 a{
+    color: rgb(11, 0, 163);
+  }
+  
+
+/* ----------------FORMULARIO-------------------------------------   */
+  /* Formulario de contacto */
+  .caja_formulario {
+    background-color: #141414;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .formulario h2 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .campo {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+  }
+  
